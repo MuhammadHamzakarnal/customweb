@@ -2,11 +2,12 @@ import React from "react";
 import StyleCss from "./About.module.css";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
+import Image from "next/image"; // Importing Image from Next.js
 
 const About: React.FC = () => {
   return (
     <div>
-      <Header></Header>
+      <Header />
       <div className={StyleCss["about-container"]}>
         <div className={StyleCss["about-bg"]}></div>
 
@@ -53,10 +54,13 @@ const About: React.FC = () => {
         <div className={StyleCss["about-image-section"]}>
           <div className={StyleCss["about-flex-container"]}>
             <div className={StyleCss["about-image-container"]}>
-              <img
+              {/* Replaced <img> with Next.js <Image> component */}
+              <Image
                 src="https://themes.muffingroup.com/be/school2/wp-content/uploads/2018/08/home_school2_pic15.jpg"
                 alt="Our School Building"
                 className={StyleCss["about-image"]}
+                width={800}  // Define width (Next.js requires width and height)
+                height={600} // Define height (Next.js requires width and height)
               />
             </div>
 
