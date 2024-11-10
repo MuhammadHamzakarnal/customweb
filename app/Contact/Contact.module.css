@@ -1,0 +1,125 @@
+.contactContainer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  background-color: #f7fafc;
+}
+
+.contactHeader {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  color: #e53e3e;
+  margin-bottom: 2rem;
+}
+
+.contactFormContainer {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.formSection {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.formSection h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: #000;
+  margin-bottom: 1.5rem;
+}
+
+.formInput {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.formInputLabel {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+
+.submitBtn {
+  width: 100%;
+  background-color: #e53e3e;
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.submitBtn:hover {
+  background-color: #c53030;
+}
+
+.contactInfoSection {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contactInfoHeader {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.contactInfoItem {
+  margin-bottom: 1.5rem;
+}
+
+.contactInfoLabel {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #2d3748;
+}
+
+.contactInfoDetails {
+  font-size: 1rem;
+  color: #718096;
+}
+
+.followUs {
+  display: flex;
+  gap: 1rem;
+}
+
+.followUs a {
+  color: #4a5568;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.followUs a:hover {
+  color: #3182ce;
+}
+
+.mapContainer {
+  margin-top: 2rem;
+}
+
+.mapContainer iframe {
+  width: 100%;
+  height: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
